@@ -1,0 +1,50 @@
+{
+  "location": {
+    "name": "Thessaloniki",
+    "region": "Central Macedonia",
+    "country": "Greece",
+    "lat": 40.64,
+    "lon": 22.94,
+    "tz_id": "Europe/Athens",
+    "localtime_epoch": 1795092600,
+    "localtime": "2026-11-19 14:50"
+  },
+  "current": {
+    "temp_c": 21.4,
+    "precip_mm": 0.0
+  },
+  "forecast": {
+    "forecastday": [
+      {
+        "date": "2026-11-19",
+        "date_epoch": 1795046400,
+        "day": {
+          "maxtemp_c": 22.8,
+          "mintemp_c": 13.9,
+          "avgtemp_c": 17.6,
+          "totalprecip_mm": 0.4,
+          "daily_chance_of_rain": 20
+        },
+        "hour": [
+          { "time_epoch": 1795039200, "time": "2026-11-19 00:00", "temp_c": 16.1, "precip_mm": 0.0, "chance_of_rain": 0 },
+          { "time_epoch": 1795042800, "time": "2026-11-19 01:00", "temp_c": 15.8, "precip_mm": 0.2, "chance_of_rain": 30 }
+        ]
+      },
+      {
+        "date": "2026-11-20",
+        "date_epoch": 1795132800,
+        "day": {
+          "maxtemp_c": 23.1,
+          "mintemp_c": 14.5,
+          "avgtemp_c": 18.2,
+          "totalprecip_mm": 0.0,
+          "daily_chance_of_rain": 0
+        },
+        "hour": [
+          { "time_epoch": 1795125600, "time": "2026-11-20 00:00", "temp_c": 16.4, "precip_mm": 0.0, "chance_of_rain": 0 },
+          { "time_epoch": 1795129200, "time": "2026-11-20 01:00", "temp_c": 16.0, "precip_mm": 0.0, "chance_of_rain": 0 }
+        ]
+      }
+    ]
+  }
+}
