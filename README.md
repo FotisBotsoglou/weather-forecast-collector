@@ -49,6 +49,14 @@ Environment variables:
 - `DB_*`: database connection, also used to create the Postgres container
 - `OPEN_METEO_BASE_URL`, `WEATHERAPI_BASE_URL`: optional, only if you need to point to another host
 
+### Dashboard
+
+http://localhost:8080 shows the collected data: both providers side by side for each day
+(with how much they disagree), an hourly temperature and rain chart, how the forecast for a
+day changed between collections, and the latest runs.
+
+![Dashboard](docs/dashboard.png)
+
 ### Endpoints
 
 - `GET /api/locations`
